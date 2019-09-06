@@ -63,7 +63,8 @@ shinyUI(fluidPage(
                              you specified as a leader is in front. When the value is negative, it means that the second car
                              overtook the first. The lap where the overtake is produced is the lap where the gap is 0. The
                              color of the line indicates the current winner (strong cyan for Mercedes and red for Ferrari). The
-                             name of the winner is also displayed after the graph.")
+                             name of the winner is also displayed after the graph."),
+                           p("See the code of the app at https://github.com/pmmorenom/DevelopingProductsProject")
                            ))
       )
     )
